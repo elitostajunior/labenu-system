@@ -1,0 +1,58 @@
+POST http://localhost:3003/turma
+Content-Type: application/json
+
+{
+    "id": 5,
+    "nome": "tang",
+    "data_inicio": "2020-02-10",
+    "data_fim": "2020-08-10",
+    "tipo": "noturno"
+}
+
+####
+POST http://localhost:3003/estudante
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nome": "Caio",
+    "email": "caio@email.com",
+    "data_nasc": "1997-07-10",
+    "hobbies": ["Ver filme", "Cuidar do Lupin", "Aprontar"],
+    "turma_id": 5
+}
+
+####
+POST http://localhost:3003/docente
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nome": "Caio",
+    "email": "caio@email.com",
+    "data_nasc": "1997-07-10",
+    "especialidades": ["CSS", "REACT", "REDUX"],
+    "turma_id": 5
+}
+
+####
+PUT http://localhost:3003/estudante
+Content-Type: application/json
+
+{
+    "estudante_id": 1,
+    "turma_id": 4
+}
+
+####
+PUT http://localhost:3003/docente
+Content-Type: application/json
+
+{
+    "docente_id": 1,
+    "turma_id": 4
+}
+
+####
+GET http://localhost:3003/estudante/1
+
