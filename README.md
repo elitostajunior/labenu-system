@@ -83,8 +83,8 @@ Content-Type: application/json
 
 {
     "id": 1,
-    "nome": "Caio",
-    "email": "caio@email.com",
+    "nome": "Caio Fernandes",
+    "email": "caiofernandes@email.com",
     "data_nasc": "1997-07-10",
     "hobbies": ["Ver filme", "Cuidar do Lupin", "Aprontar"],
     "turma_id": 5
@@ -98,9 +98,9 @@ Content-Type: application/json
 
 {
     "id": 1,
-    "nome": "Caio",
-    "email": "caio@email.com",
-    "data_nasc": "1997-07-10",
+    "nome": "José da Silva",
+    "email": "josedasilva@email.com",
+    "data_nasc": "1994-02-24",
     "especialidades": ["CSS", "REACT", "REDUX"],
     "turma_id": 5
 }
