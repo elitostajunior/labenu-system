@@ -63,7 +63,7 @@ As rotas definem os endpoints da API:
 ### Exemplos de Uso
 
 Criar uma Nova Turma
-```
+~~~json
 POST http://localhost:3003/turma
 Content-Type: application/json
 
@@ -74,10 +74,10 @@ Content-Type: application/json
     "data_fim": "2020-08-10",
     "tipo": "noturno"
 }
-```
+~~~
 
 Criar um Novo Estudante
-```
+~~~json
 POST http://localhost:3003/estudante
 Content-Type: application/json
 
@@ -89,10 +89,10 @@ Content-Type: application/json
     "hobbies": ["Ver filme", "Cuidar do Lupin", "Aprontar"],
     "turma_id": 5
 }
-```
+~~~
 
 Criar um Novo Docente
-```
+~~~json
 POST http://localhost:3003/docente
 Content-Type: application/json
 
@@ -104,10 +104,10 @@ Content-Type: application/json
     "especialidades": ["CSS", "REACT", "REDUX"],
     "turma_id": 5
 }
-```
+~~~
 
 Colocar/Alterar Aluno em Determinada Turma
-```
+~~~json
 PUT http://localhost:3003/estudante
 Content-Type: application/json
 
@@ -115,10 +115,10 @@ Content-Type: application/json
     "estudante_id": 1,
     "turma_id": 4
 }
-```
+~~~
 
 Colocar/Alterar Docente em Determinada Turma
-```
+~~~json
 PUT http://localhost:3003/docente
 Content-Type: application/json
 
@@ -126,12 +126,12 @@ Content-Type: application/json
     "docente_id": 1,
     "turma_id": 4
 }
-```
+~~~
 
 Buscar Aluno com Base no ID
-```
+~~~json
 GET http://localhost:3003/estudante/1
-```
+~~~
 
 ### Considerações Finais
 
